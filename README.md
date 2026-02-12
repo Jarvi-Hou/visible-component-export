@@ -36,6 +36,22 @@
 VisibleElementsExporter/
 ├── src/                    # 核心源代码 (C#)
 │   ├── MainCommand.cs      # 主程序入口
-│   └── ExportLogic.cs      # Excel 写入逻辑
+│   └── ExportLogic.cs      # Excel 写入逻辑  重试  错误原因
 ├── docs/                   # 产品手册与开发文档
 └── LICENSE                 # MIT 开源许可证
+
+## 📅 版本记录
+V2.2.1 (2026-02-12):  重试  错误原因
+
+✅ 修复了部分构件“关联标高”参数读取为空的问题。
+
+V1.0.0 (2026-02-09):
+
+初始版本发布。
+
+##  🤝 关于作者
+Jarvi-Hou
+
+角色: BIM 产品经理 / AI 驱动开发者
+
+愿景: 探索 AI 如何赋能建筑行业，实现零基础代码开发生产力工具。
