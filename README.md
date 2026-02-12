@@ -63,6 +63,14 @@ VisibleElementsExporter/
 
 ---
 
+## 技术路线
+- **开发语言**: C# (Revit API)
+- **数据处理**: 提取 `ActiveView` 下的 `FilteredElementCollector`。
+- **导出方式**: 采用 `ClosedXML` 库实现无后台 Excel 生成，确保运行效率。
+- **输出位置**: 默认导出至用户桌面，文件命名规则：`BIM构件导出_时间戳.xlsx`。
+
+---
+
 ## 📞 支持
 
 如有问题，请查看 [docs/](./) 文件夹中的详细文档。
